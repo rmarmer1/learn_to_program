@@ -1,16 +1,16 @@
 #myArray = (1..9).to_a
 
 #myArray.sample(9)
-#myArray = [1,2,3,4,5,6,7,8,9]
-
+myArray = [1,2,3,4,5,6,7,8,9]
+myLen = myArray.length
 #puts myArray
 
 # this works, but not if the array itself is passed in... ?!?!?!?
 
-def shuffle(range)
+def shuffle(length, array)
   
-  range.to_a.sample(9)
+  array.to_a.sample(length)
 
 end
 #
-shuffle(1..9)
+puts shuffle myLen, myArray

@@ -1,11 +1,11 @@
 def roman_numeral num
-    roman_out = ""
+    #roman_out = ""
     romanums.map.each do |div, roman| 
     	#puts num.divmod(div)
     	#puts roman
       mult, mod = num.divmod(div)
-      puts "mult: #{mult}" 
-      puts "mod: #{mod}"
+      #puts "mult: #{mult}" 
+      #puts "mod: #{mod}"
     #mult.times do
      	#result << roman
      #	puts roman
